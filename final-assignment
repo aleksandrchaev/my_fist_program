@@ -1,0 +1,24 @@
+import random
+
+
+def truth_or_action():
+    while True:
+        print("выбираете правда или действие? выход - дыход")
+        choice = input()
+        if choice == "правда":
+            question = ("Какой твой любимый вид спорта?",
+                        "какой твой любимый домашний петомец?",
+                        "Какая у тебя мечта?",
+                        "Какая твоя любимая игра?")
+            random_question = random.choice(question)
+            print(random_question)
+
+        elif choice == "действие":
+            action = ("Расскажи шутку", "Прыгни три раза на одной ноге", "Покажи обезьянку")
+            random_action = random.choice(action)
+            print(random_action)
+
+        elif choice == "выход":
+            print("пока")
+
+truth_or_action()
