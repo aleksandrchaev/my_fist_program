@@ -1,0 +1,22 @@
+s = 'это хорошо'
+print(s.islower())
+
+string = "ЭТО ХОРОШО!"
+print(string.isupper())
+
+s = 'Большой Кот'
+print(s.istitle())
+
+string = "ЭТО ДОЛЖНО БЫТЬ БЫТЬ СТРОЧНЫМ!"
+print(string.lower())
+
+s = 'пРИвеТ МИр'
+print('Строчная строка =', s.lower())
+print('Исходная строка =', s)
+
+s = 'ПИтон Крутой!'
+print(s.title())
+
+text = "heLlO worlD"
+result = text.capitalize()
+print(result)
